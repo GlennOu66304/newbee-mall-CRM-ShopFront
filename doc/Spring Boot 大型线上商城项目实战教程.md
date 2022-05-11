@@ -1,3 +1,19 @@
+## Goal
+
+## Process
+
+Page Result View route
+
+```bash
+http://localhost:8080/admin/carousels/list?page=1&limit=10
+```
+
+
+
+
+
+
+
 ##[Spring Boot 大型线上商城项目实战教程](https://juejin.cn/book/6844733814074245133/section) (SpringBoot + html)
 
 1.1 RESTAPI:Springboot + Mybait + Themeoy
@@ -22,6 +38,8 @@
 
 1.3.1CRM Admin
 1.3.1.1Admin LTE: Bootstrap
+
+Skip the PageResult and file upload section
 
 [Demo](http://mall.newbee.ltd/admin/login)
 
