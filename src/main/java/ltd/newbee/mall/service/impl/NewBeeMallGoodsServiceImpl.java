@@ -103,7 +103,7 @@ public class NewBeeMallGoodsServiceImpl implements NewBeeMallGoodsService {
     public Boolean batchUpdateSellStatus(Long[] ids, int sellStatus) {
         return goodsMapper.batchUpdateSellStatus(ids, sellStatus) > 0;
     }
-
+// Search the goods
     @Override
     public PageResult searchNewBeeMallGoods(PageQueryUtil pageUtil) {
         List<NewBeeMallGoods> goodsList = goodsMapper.findNewBeeMallGoodsListBySearch(pageUtil);

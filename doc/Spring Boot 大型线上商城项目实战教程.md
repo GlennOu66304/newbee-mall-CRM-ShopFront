@@ -28,7 +28,7 @@ a.controller(Controller)
 
 b.service:serviceimpl---> service(View)
 
-c.entity-->mapper(DAO)--->mapper.xml(Model)
+c.entity (vo in the controller)-->mapper(DAO)--->mapper.xml(Model) or 
 
 D:extra: common,util
 
