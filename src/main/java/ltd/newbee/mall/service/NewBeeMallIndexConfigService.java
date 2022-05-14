@@ -8,35 +8,35 @@
  */
 package ltd.newbee.mall.service;
 
-import ltd.newbee.mall.controller.vo.NewBeeMallIndexCarouselVO;
-import ltd.newbee.mall.entity.Carousel;
+import ltd.newbee.mall.controller.vo.NewBeeMallIndexConfigGoodsVO;
+import ltd.newbee.mall.entity.IndexConfig;
 import ltd.newbee.mall.util.PageQueryUtil;
 import ltd.newbee.mall.util.PageResult;
 
 import java.util.List;
 
-public interface NewBeeMallCarouselService {
+public interface NewBeeMallIndexConfigService {
     /**
      * 后台分页
      *
      * @param pageUtil
      * @return
      */
-    PageResult getCarouselPage(PageQueryUtil pageUtil);
+    PageResult getConfigsPage(PageQueryUtil pageUtil);
 
-    String saveCarousel(Carousel carousel);
+    String saveIndexConfig(IndexConfig indexConfig);
 
-    String updateCarousel(Carousel carousel);
+    String updateIndexConfig(IndexConfig indexConfig);
 
-    Carousel getCarouselById(Integer id);
-
-    Boolean deleteBatch(Integer[] ids);
+    IndexConfig getIndexConfigById(Long id);
 
     /**
-     * 返回固定数量的轮播图对象(首页调用)
+     * 返回固定数量的首页配置商品对象(首页调用)
      *
      * @param number
      * @return
      */
-    List<NewBeeMallIndexCarouselVO> getCarouselsForIndex(int number);
+    List<NewBeeMallIndexConfigGoodsVO> getConfigGoodsesForIndex(int configType, int number);
+
+    Boolean deleteBatch(Long[] ids);
 }

@@ -1,5 +1,41 @@
 ## Goal
 
+1.Home page build;
+
+
+
+2.Git branch for the mall section
+
+
+
+## Process
+
+1.Home Page build:
+
+1.1 Back end to front end
+
+a.controller
+
+b.service:serviceimpl---> service
+
+c.entity-->mapper(DAO)--->mapper.xml
+
+D:extra: common,util
+
+1.2 Front End:
+
+Template: html
+
+Static:dist, plugin
+
+2.Git branch Malll&XXX(Specific Feature branch)
+
+
+
+
+
+## Page  View
+
 ## Process
 
 Page Result View route
