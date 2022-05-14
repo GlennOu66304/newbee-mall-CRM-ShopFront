@@ -1,4 +1,14 @@
-## Goal
+## rg.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.xxx问题解决
+
+You need to make sure that:
+
+Mapper file in Dao is exact same file name in the Mapper folder in Resource
+
+[解决org.apache.ibatis.binding.BindingException: Invalid bound statement (not found)问题](https://blog.csdn.net/sundacheng1989/article/details/81630370)
+
+
+
+## ## Mall Home Page build
 
 1.Home page build;
 
@@ -14,11 +24,11 @@
 
 1.1 Back end to front end
 
-a.controller
+a.controller(Controller)
 
-b.service:serviceimpl---> service
+b.service:serviceimpl---> service(View)
 
-c.entity-->mapper(DAO)--->mapper.xml
+c.entity-->mapper(DAO)--->mapper.xml(Model)
 
 D:extra: common,util
 
