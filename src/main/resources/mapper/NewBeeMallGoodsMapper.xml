@@ -69,7 +69,6 @@
             #{id}
         </foreach>
     </update>
-<!--    search the goods in the mysql databases-->
     <select id="findNewBeeMallGoodsList" parameterType="Map" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List"/>
